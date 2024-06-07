@@ -1,4 +1,4 @@
-# Front-End Development Interview Project for ViewAI
+# Front-End Engineer Assessment Task for ViewAI
 
 ## Overview
 
