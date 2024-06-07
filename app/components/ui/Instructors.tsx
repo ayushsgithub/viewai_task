@@ -2,7 +2,6 @@
 import { WavyBackground } from "./wavy-background"
 import { AnimatedTooltip } from "./animated-tool-tip";
 import Link from "next/link";
-import { Button } from "./moving-border";
 
 const instructors = [
     {
@@ -44,9 +43,7 @@ function Instructors() {
             <div className="flex flex-row items-center justify-center mb-10 w-full">
                 <AnimatedTooltip items={instructors} />
             </div>
-            <Link href={"#TableSection"}>
-            <Button borderRadius='1.75rem' className='bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800'>Get Started</Button>
-        </Link>
+            <Link href={"#TableSection"} className='border-2 p-3 bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800'>Get Started</Link>
         </WavyBackground>
 
     </div>
