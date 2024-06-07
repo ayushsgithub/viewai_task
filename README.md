@@ -4,6 +4,12 @@
 
 The purpose of this interview project is to assess the candidate's proficiency in front-end development, particularly in areas critical for the role, such as API interaction, data parsing, and UI development.
 
+## Teck Stack
+
+```
+Next.js, React, TypeScript, Tailwind CSS, ShadCn, Framer Motion, Aceternity UI, Random User API, Vercel
+```
+
 ## Task
 
 Developed a simple application to fetch and display data from the API given below in the form of a table. The table should include the following fields:
