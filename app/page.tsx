@@ -6,9 +6,9 @@ import Instructors from "./components/ui/Instructors";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white[0.02]">
-    {/* <HerosSection /> */}
+    <HerosSection />
     
-    <Instructors />
+    {/* <Instructors /> */}
 
     <section id="TableSection">
       <TableSection />

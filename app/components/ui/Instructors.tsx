@@ -41,7 +41,7 @@ function Instructors() {
             <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Meet Our Instructors</h2>
             <p className="text-base md:text-lg text-white text-center mb-4">This webpage consists the assessment task of ViewAI. Lorem ipsum, sit amet consectetur adipisicing elit.</p>
             <div className="flex flex-row items-center justify-center mb-10 w-full">
-                <AnimatedTooltip items={instructors} />
+                {/* <AnimatedTooltip items={instructors} /> */}
             </div>
             <Link href={"#TableSection"} className='border-2 p-3 bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800'>Get Started</Link>
         </WavyBackground>
