@@ -7,9 +7,7 @@ const Footer = () => {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+          Get more from your data and your team with AI-powered business intelligence. Analyze data, build ML models, and automate workflows with the power of AI, all without spending a second on setup.
           </p>
         </div>
         <div>
@@ -74,13 +72,13 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Vancouver</p>
+          <p>United States Of America</p>
+          <p>Email: info@viewai.com</p>
+          <p>Phone: (+1) 456-7890</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2024 ViewAI. All rights reserved.</p>
     </footer>
   )
 }

@@ -13,13 +13,12 @@ const Navbar = ({ className }: { className?: string }) => {
             <Link href="/"><MenuItem setActive={setActive} active={active} item="Home"></MenuItem></Link>
             <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/table">Table</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="#TableSection">Table</HoveredLink>
+            <HoveredLink href="#TableSection">Table</HoveredLink>
+            <HoveredLink href="#TableSection">Table</HoveredLink>
           </div>
         </MenuItem>
-        <Link href="/"><MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem></Link>
+        <Link href="#footer"><MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem></Link>
         </Menu>
         
     </div>
